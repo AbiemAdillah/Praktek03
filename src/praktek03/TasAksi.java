@@ -25,6 +25,6 @@ public class TasAksi {
      ts.cetakInfo();
      System.out.println("Jenis \t:"+ts.getJenistas());
      ts.throttle();
-    }
-    
+     
+    } 
 }
