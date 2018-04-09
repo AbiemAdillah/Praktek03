@@ -5,7 +5,7 @@ public class TasAksi {
      s.setMerk("Eiger");
      s.setKapasitas("25 L");
      s.setHarga(300000);
-     
+     s.setJenistas("Backpack");
      s.cetakInfo();
      
      System.out.print("Merknya \t: ");
@@ -14,14 +14,16 @@ public class TasAksi {
      System.out.println(s.getKapasitas());
      System.out.print("Harganya \t: ");
      System.out.println(s.getHarga());
+     System.out.print("Jenisnya \t: ");
+     System.out.println(s.getJenistas());
     
      TasSelempang ts = new TasSelempang();
      ts.setMerk("Eiger");
      ts.setKapasitas("11 L");
      ts.setHarga(150000);
-     ts.setJenisTas("Shoulder Bag");
+     ts.setJenistas("Shoulder Bag");
      ts.cetakInfo();
-     System.out.println("Jenis \t:"+ts.getJenisTas());
+     System.out.println("Jenis \t:"+ts.getJenistas());
      ts.throttle();
     }
     
