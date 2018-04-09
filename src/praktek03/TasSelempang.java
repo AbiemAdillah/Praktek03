@@ -4,7 +4,7 @@ public class TasSelempang extends Tas{
     private String jenisTas;
     
     void throttle(){
-        System.out.println("Shoulder Bag");
+        System.out.println("Tas Santai");
     }
 
     public String getJenisTas() {
