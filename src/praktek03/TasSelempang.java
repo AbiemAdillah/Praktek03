@@ -6,4 +6,14 @@ public class TasSelempang extends Tas{
     void throttle(){
         System.out.println("Shoulder Bag");
     }
+
+    public String getJenisTas() {
+        return jenisTas;
+    }
+
+    public void setJenisTas(String jenisTas) {
+        this.jenisTas = jenisTas;
+    }
+    
+    
 }
