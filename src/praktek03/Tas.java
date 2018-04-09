@@ -7,7 +7,7 @@ public class Tas {
     
     void cetakInfo(){
         System.out.println("Merk \t: "+merk+"\n"+
-                           "Warna \t: "+kapasitas+"\n"+
+                           "Kapasitas \t: "+kapasitas+"\n"+
                            "Harga \t: "+harga);
     }
 }
